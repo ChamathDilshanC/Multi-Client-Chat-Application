@@ -1,0 +1,43 @@
+
+.root {
+    -fx-background-color: #F0F2F5;
+    -fx-padding: 20;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-fill: #2B5278;
+}
+
+.chat-area {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #E4E6EB;
+    -fx-border-width: 1;
+    -fx-font-size: 14px;
+}
+
+.input-field {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #E4E6EB;
+    -fx-border-width: 1;
+    -fx-padding: 8 15;
+    -fx-font-size: 14px;
+}
+
+.send-button {
+    -fx-background-color: #0084FF;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-padding: 8 20;
+    -fx-cursor: hand;
+}
+
+.send-button:hover {
+    -fx-background-color: #0073E6;
+}
