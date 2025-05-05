@@ -60,9 +60,9 @@ The application follows a client-server architecture:
                        │
            ┌───────────┴───────────┐
            │           │           │
-      ┌────▼────┐ ┌────▼────┐ ┌────▼────┐
+      ┌────▼─────┐ ┌────▼─────┐ ┌────▼─────┐
       │ Client 1 │ │ Client 2 │ │ Client 3 │
-      └─────────┘ └─────────┘ └─────────┘
+      └──────────┘ └──────────┘ └──────────┘
 ```
 
 - **Server**: Manages client connections and routes messages between clients
